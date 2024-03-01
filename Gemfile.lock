@@ -9,7 +9,7 @@ GEM
     rake (13.0.1)
     rake-compiler (0.9.9)
       rake
-    yard (0.9.25)
+    yard (0.9.36)
 
 PLATFORMS
   ruby
