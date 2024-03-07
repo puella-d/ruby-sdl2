@@ -18,18 +18,27 @@ Before installing Ruby/SDL2, you need to install:
 
 After installing these libraries, you can install Ruby/SDL2 by gem command as follows:
 
-    gem install ruby-sdl2
+    gem install sdl2-win93
+
+If you already use ohai/ruby-sdl2 uninstall it with:
+    
+    gem uninstall ruby-sdl2
 
 Alternatively You can also install the master version of Ruby/SDL2 from github:
 
-    git clone https://github.com/ohai/ruby-sdl2.git
+    git clone https://github.com/win93/ruby-sdl2.git
     cd ruby-sdl2
     rake gem
     gem install pkg/ruby-sdl2-x.y.z.gem
+    
+In code use as:
+
+    require "sdl2"
 
 ## Documentation
 
 * [English Reference manual](http://win93.github.io/ruby-sdl2/doc-en/)
+* You can also check samples of code in "sample" folder.
 
 ## License
 
